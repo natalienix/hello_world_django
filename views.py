@@ -6,4 +6,4 @@ import time
 
 
 def index(request):
-    return HttpResponse("Hello World at " + time.strftime("%c") + "!")
+    return HttpResponse("Hello World on " + time.strftime("%c") + "!")
